@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# AP Study AI 📚✨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AI-powered mobile app for AP exam practice. Built with React Native + Expo + Claude AI.
 
-## Get started
+## What it does
 
-1. Install dependencies
+AP Study AI generates unique, college-board-style practice questions for 8 AP subjects using Claude AI. Every session is different — no two exams are the same.
 
-   ```bash
-   npm install
-   ```
+- 🤖 AI-generated questions powered by Claude (Anthropic)
+- 📊 Track your progress per subject over time
+- ⚡ Instant feedback with detailed explanations
+- 🎯 Choose your session length: 10, 20, or 30 questions
+- 📱 Built for iOS with React Native + Expo
 
-2. Start the app
+## Subjects
 
-   ```bash
-   npx expo start
-   ```
+- AP Calculus AB
+- AP Biology
+- AP US History
+- AP English Language
+- AP Statistics
+- AP Psychology
+- AP Physics 1
+- AP Spanish
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native + Expo Router
+- TypeScript
+- Anthropic Claude API (claude-sonnet-4-20250514)
+- AsyncStorage for local progress tracking
+- React Native Reanimated for animations
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone the repo
+2. Install dependencies: `npm install`
+3. Create a `.env` file with your Anthropic API key:
