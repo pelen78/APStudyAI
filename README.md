@@ -36,3 +36,8 @@ AP Study AI generates unique, college-board-style practice questions for 8 AP su
 1. Clone the repo
 2. Install dependencies: `npm install`
 3. Create a `.env` file with your Anthropic API key:
+
+4. Run: `npx expo start`
+5. Scan QR with Expo Go on your phone
+
+## Built for AI Mobile Hackathon 2026
